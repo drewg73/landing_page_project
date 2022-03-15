@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.dark_background {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-bottom: 64px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container_one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 32px;
+}
+
+.container_one div {
+    width: 375px;
+}
+
+.container_one img {
+    background-color: darkgray;
+    opacity: 75%;
+    text-align: center;
+    width: 375px;
+    height: 161px;
+}
+
+.container_two {
+    text-align: center;
+}
+
+.container_two h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 32px;
+}
+
+.container_three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: oblique;
+    padding: 32px 10%;
+}
+
+.container_three p:nth-child(2) {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: right;
+}
+
+.container_four {
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 10%;
+    padding: 32px 10%;
+    border-radius: 8px;
+}
+
+.container_four p {
+    color: #E5E7EB;
+}
+
+.container_four button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 32px;
+}
+
+.info img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info p {
+    width: 150px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
