@@ -17,30 +17,38 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    padding-bottom: 64px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 8px 15% 128px 15%;
 }
 
 .container_one {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 64px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 32px;
+    gap: 64px;
+    padding: 0 15% 128px 15%;
+    margin-bottom: 64px;
 }
 
 .container_one div {
-    width: 375px;
+    flex: 1;
+}
+
+.container_one div h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.container_one div p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
 }
 
 .container_one img {
+    flex: 1;
     background-color: darkgray;
     opacity: 75%;
     text-align: center;
-    width: 375px;
-    height: 161px;
 }
 
 .container_two {
@@ -51,7 +59,7 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 }
 
 .container_three {
@@ -59,7 +67,7 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-style: oblique;
-    padding: 32px 10%;
+    padding: 128px 21% 128px 21%;
 }
 
 .container_three p:nth-child(2) {
@@ -75,13 +83,15 @@ body {
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
-    margin: 32px 10%;
+    align-items: center;
+    margin: 128px 15% 128px 15%;
     padding: 32px 10%;
     border-radius: 8px;
 }
 
 .container_four p {
     color: #E5E7EB;
+    padding-top: 8px;
 }
 
 .container_four button {
@@ -98,9 +108,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 32px;
+    padding: 0 15% 0 15%;
+    gap: 16px;
+    margin-bottom: 128px;
 }
 
 .info img {
@@ -113,11 +123,13 @@ body {
 
 .info p {
     width: 150px;
+    margin-top: 8px;
 }
 
 button {
     background-color: #3882F6;
     color: #f9faf8;
+    font-size: 16px;
     border-style: none;
     border-radius: 8px;
     padding: 8px 24px;
